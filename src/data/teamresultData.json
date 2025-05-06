@@ -1,0 +1,561 @@
+{
+    "teamMatchesData": [
+        {
+            "matchDetailsMap": {
+                "key": "ICC Champions Trophy, 2025",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 112469,
+                            "seriesId": 9325,
+                            "seriesName": "ICC Champions Trophy, 2025",
+                            "matchDesc": "Final",
+                            "matchFormat": "ODI",
+                            "startDate": "1741510800000",
+                            "endDate": "1741539600000",
+                            "state": "Complete",
+                            "status": "India won by 4 wkts",
+                            "team1": {
+                                "teamId": 13,
+                                "teamName": "New Zealand",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "team2": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "venueInfo": {
+                                "id": 153,
+                                "ground": "Dubai International Cricket Stadium",
+                                "city": "Dubai",
+                                "timezone": "+04:00"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1739923200000",
+                            "seriesEndDt": "1741651200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 251,
+                                    "wickets": 7,
+                                    "overs": 50
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 254,
+                                    "wickets": 6,
+                                    "overs": 49
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 112462,
+                            "seriesId": 9325,
+                            "seriesName": "ICC Champions Trophy, 2025",
+                            "matchDesc": "1st Semi-Final (A1 v B2)",
+                            "matchFormat": "ODI",
+                            "startDate": "1741078800000",
+                            "endDate": "1741107600000",
+                            "state": "Complete",
+                            "status": "India won by 4 wkts",
+                            "team1": {
+                                "teamId": 4,
+                                "teamName": "Australia",
+                                "teamSName": "AUS",
+                                "imageId": 172117
+                            },
+                            "team2": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "venueInfo": {
+                                "id": 153,
+                                "ground": "Dubai International Cricket Stadium",
+                                "city": "Dubai",
+                                "timezone": "+04:00"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1739923200000",
+                            "seriesEndDt": "1741651200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 264,
+                                    "wickets": 10,
+                                    "overs": 49.3
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 267,
+                                    "wickets": 6,
+                                    "overs": 48.1
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 112455,
+                            "seriesId": 9325,
+                            "seriesName": "ICC Champions Trophy, 2025",
+                            "matchDesc": "12th Match, Group A",
+                            "matchFormat": "ODI",
+                            "startDate": "1740906000000",
+                            "endDate": "1740934800000",
+                            "state": "Complete",
+                            "status": "India won by 44 runs",
+                            "team1": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "team2": {
+                                "teamId": 13,
+                                "teamName": "New Zealand",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "venueInfo": {
+                                "id": 153,
+                                "ground": "Dubai International Cricket Stadium",
+                                "city": "Dubai",
+                                "timezone": "+04:00"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1739923200000",
+                            "seriesEndDt": "1741651200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 249,
+                                    "wickets": 9,
+                                    "overs": 50
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 205,
+                                    "wickets": 10,
+                                    "overs": 45.3
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 112420,
+                            "seriesId": 9325,
+                            "seriesName": "ICC Champions Trophy, 2025",
+                            "matchDesc": "5th Match, Group A",
+                            "matchFormat": "ODI",
+                            "startDate": "1740301200000",
+                            "endDate": "1740330000000",
+                            "state": "Complete",
+                            "status": "India won by 6 wkts",
+                            "team1": {
+                                "teamId": 3,
+                                "teamName": "Pakistan",
+                                "teamSName": "PAK",
+                                "imageId": 591986
+                            },
+                            "team2": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "venueInfo": {
+                                "id": 153,
+                                "ground": "Dubai International Cricket Stadium",
+                                "city": "Dubai",
+                                "timezone": "+04:00"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1739923200000",
+                            "seriesEndDt": "1741651200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 241,
+                                    "wickets": 10,
+                                    "overs": 49.4
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 244,
+                                    "wickets": 4,
+                                    "overs": 42.3
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 112402,
+                            "seriesId": 9325,
+                            "seriesName": "ICC Champions Trophy, 2025",
+                            "matchDesc": "2nd Match, Group A",
+                            "matchFormat": "ODI",
+                            "startDate": "1740042000000",
+                            "endDate": "1740070800000",
+                            "state": "Complete",
+                            "status": "India won by 6 wkts",
+                            "team1": {
+                                "teamId": 6,
+                                "teamName": "Bangladesh",
+                                "teamSName": "BAN",
+                                "imageId": 172120
+                            },
+                            "team2": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "venueInfo": {
+                                "id": 153,
+                                "ground": "Dubai International Cricket Stadium",
+                                "city": "Dubai",
+                                "timezone": "+04:00"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1739923200000",
+                            "seriesEndDt": "1741651200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 228,
+                                    "wickets": 10,
+                                    "overs": 49.4
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 231,
+                                    "wickets": 4,
+                                    "overs": 46.3
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 9325
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "matchDetailsMap": {
+                "key": "England tour of India, 2025",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 100328,
+                            "seriesId": 8402,
+                            "seriesName": "England tour of India, 2025",
+                            "matchDesc": "3rd ODI",
+                            "matchFormat": "ODI",
+                            "startDate": "1739347200000",
+                            "endDate": "1739376000000",
+                            "state": "Complete",
+                            "status": "India won by 142 runs",
+                            "team1": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "team2": {
+                                "teamId": 9,
+                                "teamName": "England",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "venueInfo": {
+                                "id": 50,
+                                "ground": "Narendra Modi Stadium",
+                                "city": "Ahmedabad",
+                                "timezone": "+05:30"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1737504000000",
+                            "seriesEndDt": "1739491200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 356,
+                                    "wickets": 10,
+                                    "overs": 50
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 214,
+                                    "wickets": 10,
+                                    "overs": 34.2
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 100321,
+                            "seriesId": 8402,
+                            "seriesName": "England tour of India, 2025",
+                            "matchDesc": "2nd ODI",
+                            "matchFormat": "ODI",
+                            "startDate": "1739088000000",
+                            "endDate": "1739116800000",
+                            "state": "Complete",
+                            "status": "India won by 4 wkts",
+                            "team1": {
+                                "teamId": 9,
+                                "teamName": "England",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "team2": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "venueInfo": {
+                                "id": 103,
+                                "ground": "Barabati Stadium",
+                                "city": "Cuttack",
+                                "timezone": "+05:30"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1737504000000",
+                            "seriesEndDt": "1739491200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 304,
+                                    "wickets": 10,
+                                    "overs": 49.5
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 308,
+                                    "wickets": 6,
+                                    "overs": 44.3
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 100312,
+                            "seriesId": 8402,
+                            "seriesName": "England tour of India, 2025",
+                            "matchDesc": "1st ODI",
+                            "matchFormat": "ODI",
+                            "startDate": "1738828800000",
+                            "endDate": "1738857600000",
+                            "state": "Complete",
+                            "status": "India won by 4 wkts",
+                            "team1": {
+                                "teamId": 9,
+                                "teamName": "England",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "team2": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "venueInfo": {
+                                "id": 228,
+                                "ground": "Vidarbha Cricket Association Stadium",
+                                "city": "Nagpur",
+                                "timezone": "+05:30"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1737504000000",
+                            "seriesEndDt": "1739491200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 248,
+                                    "wickets": 10,
+                                    "overs": 47.4
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 251,
+                                    "wickets": 6,
+                                    "overs": 38.4
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 100310,
+                            "seriesId": 8402,
+                            "seriesName": "England tour of India, 2025",
+                            "matchDesc": "5th T20I",
+                            "matchFormat": "T20",
+                            "startDate": "1738503000000",
+                            "endDate": "1738515600000",
+                            "state": "Complete",
+                            "status": "India won by 150 runs",
+                            "team1": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "team2": {
+                                "teamId": 9,
+                                "teamName": "England",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "venueInfo": {
+                                "id": 81,
+                                "ground": "Wankhede Stadium",
+                                "city": "Mumbai",
+                                "timezone": "+05:30"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1737504000000",
+                            "seriesEndDt": "1739491200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 247,
+                                    "wickets": 9,
+                                    "overs": 20
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 97,
+                                    "wickets": 10,
+                                    "overs": 10.3
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "matchInfo": {
+                            "matchId": 100301,
+                            "seriesId": 8402,
+                            "seriesName": "England tour of India, 2025",
+                            "matchDesc": "4th T20I",
+                            "matchFormat": "T20",
+                            "startDate": "1738330200000",
+                            "endDate": "1738342800000",
+                            "state": "Complete",
+                            "status": "India won by 15 runs",
+                            "team1": {
+                                "teamId": 2,
+                                "teamName": "India",
+                                "teamSName": "IND",
+                                "imageId": 172115
+                            },
+                            "team2": {
+                                "teamId": 9,
+                                "teamName": "England",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "venueInfo": {
+                                "id": 287,
+                                "ground": "Maharashtra Cricket Association Stadium",
+                                "city": "Pune",
+                                "timezone": "+05:30"
+                            },
+                            "currBatTeamId": 2,
+                            "seriesStartDt": "1737504000000",
+                            "seriesEndDt": "1739491200000",
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 181,
+                                    "wickets": 9,
+                                    "overs": 20
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 166,
+                                    "wickets": 10,
+                                    "overs": 19.4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 8402
+            }
+        }
+    ],
+    "appIndex": {
+        "seoTitle": "India Cricket Team live scores, fixtures - Cricbuzz | Cricbuzz.com",
+        "webURL": "www.cricbuzz.com/cricket-team/"
+    }
+}

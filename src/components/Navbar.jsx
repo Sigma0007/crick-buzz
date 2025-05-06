@@ -41,24 +41,6 @@ function Navbar() {
               >
                 {item.name}
               </NavLink>
-              {item.name === 'teams' && (
-                <button
-                  className="ml-1 text-xs"
-                  onClick={e => {
-                    e.preventDefault();
-                    setOpenDropdown(openDropdown === idx ? null : idx);
-                  }}
-                >
-                  ▼
-                </button>
-              )}
-              {openDropdown === idx && item.name === 'teams' && (
-                <ul className="absolute left-0 top-full bg-white text-green-900 shadow-lg rounded-lg w-40 z-10 mt-2">
-                  <li className="px-4 py-2 hover:bg-green-100 cursor-pointer">India</li>
-                  <li className="px-4 py-2 hover:bg-green-100 cursor-pointer">Australia</li>
-                  <li className="px-4 py-2 hover:bg-green-100 cursor-pointer">England</li>
-                </ul>
-              )}
             </li>
           ))}
         </ul>

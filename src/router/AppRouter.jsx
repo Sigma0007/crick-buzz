@@ -15,6 +15,8 @@ import SeriesDetailPage from '../pages/series/SeriesDetailPage';
 import SeriesNewsPage from '../pages/series/SeriesNewsPage';
 import SeriesPointsTablePage from '../pages/series/SeriesPointsTablePage';
 import SeriesMatchesPage from '../pages/series/SeriesMatchesPage';
+import TeamPlayersPage from '../pages/TeamPlayersPage';
+import TeamMatchesPage from '../pages/TeamMatchesPage';
 
 function AppRouter({ data }) {
   return (
@@ -36,6 +38,8 @@ function AppRouter({ data }) {
           <Route path="/photos" element={<PhotosPage />} />
           <Route path="/stats" element={<StatsPage />} />
           <Route path="/match/:matchId" element={<MatchDetailPage />} />
+          <Route path="/teams/:teamId/players" element={<TeamPlayersPage />} />
+          <Route path="/teams/:teamId/matches" element={<TeamMatchesPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

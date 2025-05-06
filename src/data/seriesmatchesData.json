@@ -1,226 +1,367 @@
 {
-    "seriesMapProto": [
+    "matchDetails": [
         {
-            "date": "FEBRUARY 2024",
-            "series": [
-                {
-                    "id": 7572,
-                    "name": "ICC Cricket World Cup League Two 2023-27",
-                    "startDt": "1707955200000",
-                    "endDt": "1806364800000"
-                }
-            ]
+            "matchDetailsMap": {
+                "key": "Fri, 20 May 2022 - Mon, 23 May 2022",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 48002,
+                            "seriesId": 3641,
+                            "seriesName": "New Zealand tour of England, 2022",
+                            "matchDesc": "1st Warm-up Match",
+                            "matchFormat": "TEST",
+                            "startDate": "1653040800000",
+                            "endDate": "1653300000000",
+                            "state": "complete",
+                            "status": "Match drawn",
+                            "team1": {
+                                "teamId": 41,
+                                "teamName": "SUSSEX",
+                                "teamSName": "SUS",
+                                "imageId": 172148
+                            },
+                            "team2": {
+                                "teamId": 13,
+                                "teamName": "NEW ZEALAND",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "venueInfo": {
+                                "ground": "County Ground",
+                                "city": "Hove",
+                                "timezone": "+01:00"
+                            },
+                            "curBatTeamId": 13,
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 247,
+                                    "wickets": 10,
+                                    "overs": 79.1
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 342,
+                                    "wickets": 3,
+                                    "overs": 90,
+                                    "isDeclared": true
+                                },
+                                "inngs2": {
+                                    "inningsId": 3,
+                                    "runs": 40,
+                                    "overs": 8
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 3641
+            }
         },
         {
-            "date": "APRIL 2025",
-            "series": [
-                {
-                    "id": 9514,
-                    "name": "Zimbabwe tour of Bangladesh, 2025",
-                    "startDt": "1745107200000",
-                    "endDt": "1746144000000"
-                },
-                {
-                    "id": 9710,
-                    "name": "Malaysia Quadrangular T20I Series, 2025",
-                    "startDt": "1745452800000",
-                    "endDt": "1746144000000"
-                }
-            ]
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
         },
         {
-            "date": "MAY 2025",
-            "series": [
-                {
-                    "id": 9719,
-                    "name": "Estonia tour of Malta, 2025",
-                    "startDt": "1746489600000",
-                    "endDt": "1746576000000"
-                },
-                {
-                    "id": 9728,
-                    "name": "Japan T20I Tri-Series, 2025",
-                    "startDt": "1746576000000",
-                    "endDt": "1746921600000"
-                },
-                {
-                    "id": 9731,
-                    "name": "Cook Islands tour of Japan, 2025",
-                    "startDt": "1747094400000",
-                    "endDt": "1747180800000"
-                },
-                {
-                    "id": 9800,
-                    "name": "Bangladesh tour of UAE, 2025",
-                    "startDt": "1747440000000",
-                    "endDt": "1747612800000"
-                },
-                {
-                    "id": 7065,
-                    "name": "Zimbabwe tour of England, 2025",
-                    "startDt": "1747785600000",
-                    "endDt": "1748131200000"
-                },
-                {
-                    "id": 9390,
-                    "name": "West Indies tour of Ireland, 2025",
-                    "startDt": "1747785600000",
-                    "endDt": "1749945600000"
-                },
-                {
-                    "id": 9785,
-                    "name": "Bangladesh tour of Pakistan, 2025",
-                    "startDt": "1748131200000",
-                    "endDt": "1748908800000"
-                },
-                {
-                    "id": 8796,
-                    "name": "West Indies tour of England, 2025",
-                    "startDt": "1748476800000",
-                    "endDt": "1749513600000"
-                }
-            ]
+            "matchDetailsMap": {
+                "key": "Thu, 26 May 2022 - Sun, 29 May 2022",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 48009,
+                            "seriesId": 3641,
+                            "seriesName": "New Zealand tour of England, 2022",
+                            "matchDesc": "2nd Warm-up Match",
+                            "matchFormat": "TEST",
+                            "startDate": "1653559200000",
+                            "endDate": "1653818400000",
+                            "state": "complete",
+                            "status": "County Select XI won by 7 wkts",
+                            "team1": {
+                                "teamId": 886,
+                                "teamName": "COUNTY SELECT XI",
+                                "teamSName": "CSXI",
+                                "imageId": 174284
+                            },
+                            "team2": {
+                                "teamId": 13,
+                                "teamName": "NEW ZEALAND",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "venueInfo": {
+                                "ground": "County Ground",
+                                "city": "Chelmsford",
+                                "timezone": "+01:00"
+                            },
+                            "curBatTeamId": 886,
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 247,
+                                    "wickets": 10,
+                                    "overs": 74.2
+                                },
+                                "inngs2": {
+                                    "inningsId": 4,
+                                    "runs": 264,
+                                    "wickets": 3,
+                                    "overs": 88
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 362,
+                                    "wickets": 9,
+                                    "overs": 100,
+                                    "isDeclared": true
+                                },
+                                "inngs2": {
+                                    "inningsId": 3,
+                                    "runs": 148,
+                                    "wickets": 10,
+                                    "overs": 43.2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 3641
+            }
         },
         {
-            "date": "JUNE 2025",
-            "series": [
-                {
-                    "id": 8881,
-                    "name": "ICC World Test Championship Final 2025",
-                    "startDt": "1749600000000",
-                    "endDt": "1749945600000"
-                },
-                {
-                    "id": 9737,
-                    "name": "Scotland T20 Tri-Series 2025",
-                    "startDt": "1749945600000",
-                    "endDt": "1750464000000"
-                },
-                {
-                    "id": 8786,
-                    "name": "India tour of England, 2025",
-                    "startDt": "1750377600000",
-                    "endDt": "1754265600000"
-                },
-                {
-                    "id": 9408,
-                    "name": "Australia tour of West Indies, 2025",
-                    "startDt": "1750809600000",
-                    "endDt": "1753660800000"
-                },
-                {
-                    "id": 9578,
-                    "name": "South Africa tour of Zimbabwe, 2025",
-                    "startDt": "1751068800000",
-                    "endDt": "1752105600000"
-                }
-            ]
+            "matchDetailsMap": {
+                "key": "Thu, 02 Jun 2022 - Mon, 06 Jun 2022",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 38326,
+                            "seriesId": 3641,
+                            "seriesName": "New Zealand tour of England, 2022",
+                            "matchDesc": "1st Test",
+                            "matchFormat": "TEST",
+                            "startDate": "1654164000000",
+                            "endDate": "1654509600000",
+                            "state": "complete",
+                            "status": "England won by 5 wkts",
+                            "team1": {
+                                "teamId": 9,
+                                "teamName": "ENGLAND",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "team2": {
+                                "teamId": 13,
+                                "teamName": "NEW ZEALAND",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "venueInfo": {
+                                "ground": "Lord's",
+                                "city": "London",
+                                "timezone": "+01:00"
+                            },
+                            "curBatTeamId": 9,
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 141,
+                                    "wickets": 10,
+                                    "overs": 42.5
+                                },
+                                "inngs2": {
+                                    "inningsId": 4,
+                                    "runs": 279,
+                                    "wickets": 5,
+                                    "overs": 78.5
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 132,
+                                    "wickets": 10,
+                                    "overs": 40
+                                },
+                                "inngs2": {
+                                    "inningsId": 3,
+                                    "runs": 285,
+                                    "wickets": 10,
+                                    "overs": 91.3
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 3641
+            }
         },
         {
-            "date": "JULY 2025",
-            "series": [
-                {
-                    "id": 9587,
-                    "name": "Zimbabwe T20I Tri-Series, 2025",
-                    "startDt": "1752451200000",
-                    "endDt": "1753488000000"
-                },
-                {
-                    "id": 9584,
-                    "name": "New Zealand tour of Zimbabwe, 2025",
-                    "startDt": "1753833600000",
-                    "endDt": "1754870400000"
-                },
-                {
-                    "id": 9399,
-                    "name": "Pakistan tour of West Indies, 2025",
-                    "startDt": "1753920000000",
-                    "endDt": "1754956800000"
-                }
-            ]
+            "matchDetailsMap": {
+                "key": "Fri, 10 Jun 2022 - Tue, 14 Jun 2022",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 38331,
+                            "seriesId": 3641,
+                            "seriesName": "New Zealand tour of England, 2022",
+                            "matchDesc": "2nd Test",
+                            "matchFormat": "TEST",
+                            "startDate": "1654855200000",
+                            "endDate": "1655200800000",
+                            "state": "complete",
+                            "status": "England won by 5 wkts",
+                            "team1": {
+                                "teamId": 9,
+                                "teamName": "ENGLAND",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "team2": {
+                                "teamId": 13,
+                                "teamName": "NEW ZEALAND",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "venueInfo": {
+                                "ground": "Trent Bridge",
+                                "city": "Nottingham",
+                                "timezone": "+01:00"
+                            },
+                            "curBatTeamId": 9,
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 539,
+                                    "wickets": 10,
+                                    "overs": 128.2
+                                },
+                                "inngs2": {
+                                    "inningsId": 4,
+                                    "runs": 299,
+                                    "wickets": 5,
+                                    "overs": 50
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 553,
+                                    "wickets": 10,
+                                    "overs": 145.3
+                                },
+                                "inngs2": {
+                                    "inningsId": 3,
+                                    "runs": 284,
+                                    "wickets": 10,
+                                    "overs": 84.4
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 3641
+            }
         },
         {
-            "date": "AUGUST 2025",
-            "series": [
-                {
-                    "id": 9602,
-                    "name": "South Africa tour of Australia, 2025",
-                    "startDt": "1754784000000",
-                    "endDt": "1755993600000"
-                },
-                {
-                    "id": 9686,
-                    "name": "India tour of Bangladesh, 2025",
-                    "startDt": "1755388800000",
-                    "endDt": "1756598400000"
-                }
-            ]
+            "adDetail": {
+                "name": "native_news_index_random_2",
+                "layout": "native_large",
+                "position": 4
+            }
         },
         {
-            "date": "SEPTEMBER 2025",
-            "series": [
-                {
-                    "id": 8788,
-                    "name": "South Africa tour of England, 2025",
-                    "startDt": "1756771200000",
-                    "endDt": "1757808000000"
-                },
-                {
-                    "id": 8802,
-                    "name": "England tour of Ireland, 2025",
-                    "startDt": "1758067200000",
-                    "endDt": "1758412800000"
-                }
-            ]
-        },
-        {
-            "date": "OCTOBER 2025",
-            "series": [
-                {
-                    "id": 9629,
-                    "name": "West Indies tour of India, 2025",
-                    "startDt": "1759363200000",
-                    "endDt": "1760400000000"
-                },
-                {
-                    "id": 9596,
-                    "name": "India tour of Australia, 2025",
-                    "startDt": "1760832000000",
-                    "endDt": "1762560000000"
-                }
-            ]
-        },
-        {
-            "date": "NOVEMBER 2025",
-            "series": [
-                {
-                    "id": 9638,
-                    "name": "South Africa tour of India, 2025",
-                    "startDt": "1763078400000",
-                    "endDt": "1766102400000"
-                },
-                {
-                    "id": 9107,
-                    "name": "The Ashes, 2025-26",
-                    "startDt": "1763683200000",
-                    "endDt": "1767830400000"
-                }
-            ]
-        },
-        {
-            "date": "JANUARY 2026",
-            "series": [
-                {
-                    "id": 9551,
-                    "name": "West Indies tour of South Africa, 2026",
-                    "startDt": "1769472000000",
-                    "endDt": "1770336000000"
-                }
-            ]
+            "matchDetailsMap": {
+                "key": "Thu, 23 Jun 2022 - Mon, 27 Jun 2022",
+                "match": [
+                    {
+                        "matchInfo": {
+                            "matchId": 38332,
+                            "seriesId": 3641,
+                            "seriesName": "New Zealand tour of England, 2022",
+                            "matchDesc": "3rd Test",
+                            "matchFormat": "TEST",
+                            "startDate": "1655978400000",
+                            "endDate": "1656324000000",
+                            "state": "complete",
+                            "status": "England won by 7 wkts",
+                            "team1": {
+                                "teamId": 9,
+                                "teamName": "ENGLAND",
+                                "teamSName": "ENG",
+                                "imageId": 172123
+                            },
+                            "team2": {
+                                "teamId": 13,
+                                "teamName": "NEW ZEALAND",
+                                "teamSName": "NZ",
+                                "imageId": 172128
+                            },
+                            "venueInfo": {
+                                "ground": "Headingley",
+                                "city": "Leeds",
+                                "timezone": "+01:00"
+                            },
+                            "curBatTeamId": 9,
+                            "isTimeAnnounced": true
+                        },
+                        "matchScore": {
+                            "team1Score": {
+                                "inngs1": {
+                                    "inningsId": 2,
+                                    "runs": 360,
+                                    "wickets": 10,
+                                    "overs": 67
+                                },
+                                "inngs2": {
+                                    "inningsId": 4,
+                                    "runs": 296,
+                                    "wickets": 3,
+                                    "overs": 54.2
+                                }
+                            },
+                            "team2Score": {
+                                "inngs1": {
+                                    "inningsId": 1,
+                                    "runs": 329,
+                                    "wickets": 10,
+                                    "overs": 117.3
+                                },
+                                "inngs2": {
+                                    "inningsId": 3,
+                                    "runs": 326,
+                                    "wickets": 10,
+                                    "overs": 105.2
+                                }
+                            }
+                        }
+                    }
+                ],
+                "seriesId": 3641
+            }
         }
     ],
     "appIndex": {
-        "seoTitle": "Current Running Cricket Series - Cricbuzz | Cricbuzz.com",
+        "seoTitle": "New Zealand tour of England, 2022 live scores, schedule and results - Cricbuzz | Cricbuzz.com",
         "webURL": "www.cricbuzz.com/cricket-series/"
     }
 }

@@ -50,6 +50,9 @@ function SeriesPage() {
     });
   };
 
+  // Find the first series with at least one match
+  const firstSeriesWithMatches = seriesListArr.find(series => series.matchCount > 0);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto p-8">
@@ -63,7 +66,7 @@ function SeriesPage() {
               All Series
             </Link>
             <Link
-              to="./matches"
+              to={firstSeriesWithMatches ? `/series/${firstSeriesWithMatches.id}/matches` : "/matches"}
               className="px-3 py-1.5 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900"
             >
               Matches
