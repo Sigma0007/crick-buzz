@@ -1,0 +1,575 @@
+{
+    "matchScheduleMap": [
+        {
+            "scheduleAdWrapper": {
+                "date": "TUE, MAY 06 2025",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Estonia tour of Malta, 2025",
+                        "matchInfo": [
+                            {
+                                "matchId": 118124,
+                                "seriesId": 9719,
+                                "matchDesc": "1st T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1746514800000",
+                                "endDate": "1746575999000",
+                                "team1": {
+                                    "teamId": 522,
+                                    "teamName": "Malta",
+                                    "teamSName": "Malta",
+                                    "imageId": 172572
+                                },
+                                "team2": {
+                                    "teamId": 526,
+                                    "teamName": "Estonia",
+                                    "teamSName": "EST",
+                                    "imageId": 172576
+                                },
+                                "venueInfo": {
+                                    "ground": "Marsa Sports Club",
+                                    "city": "Marsa",
+                                    "country": "Malta",
+                                    "timezone": "+02:00"
+                                }
+                            },
+                            {
+                                "matchId": 118127,
+                                "seriesId": 9719,
+                                "matchDesc": "2nd T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1746529200000",
+                                "endDate": "1746575999000",
+                                "team1": {
+                                    "teamId": 522,
+                                    "teamName": "Malta",
+                                    "teamSName": "Malta",
+                                    "imageId": 172572
+                                },
+                                "team2": {
+                                    "teamId": 526,
+                                    "teamName": "Estonia",
+                                    "teamSName": "EST",
+                                    "imageId": 172576
+                                },
+                                "venueInfo": {
+                                    "ground": "Marsa Sports Club",
+                                    "city": "Marsa",
+                                    "country": "Malta",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 9719,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 117584,
+                                "seriesId": 7572,
+                                "matchDesc": "62nd Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1746522000000",
+                                "endDate": "1746575999000",
+                                "team1": {
+                                    "teamId": 24,
+                                    "teamName": "Netherlands",
+                                    "teamSName": "NED",
+                                    "imageId": 172138
+                                },
+                                "team2": {
+                                    "teamId": 7,
+                                    "teamName": "United Arab Emirates",
+                                    "teamSName": "UAE",
+                                    "imageId": 172121
+                                },
+                                "venueInfo": {
+                                    "ground": "VRA Cricket Ground",
+                                    "city": "Amstelveen",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 7572,
+                        "seriesHomeCountry": 1,
+                        "seriesCategory": "International"
+                    }
+                ],
+                "longDate": "1746489600000"
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_1",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "WED, MAY 07 2025",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Estonia tour of Malta, 2025",
+                        "matchInfo": [
+                            {
+                                "matchId": 118133,
+                                "seriesId": 9719,
+                                "matchDesc": "3rd T20I",
+                                "matchFormat": "T20",
+                                "startDate": "1746615600000",
+                                "endDate": "1746662399000",
+                                "team1": {
+                                    "teamId": 522,
+                                    "teamName": "Malta",
+                                    "teamSName": "Malta",
+                                    "imageId": 172572
+                                },
+                                "team2": {
+                                    "teamId": 526,
+                                    "teamName": "Estonia",
+                                    "teamSName": "EST",
+                                    "imageId": 172576
+                                },
+                                "venueInfo": {
+                                    "ground": "Marsa Sports Club",
+                                    "city": "Marsa",
+                                    "country": "Malta",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 9719,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Japan T20I Tri-Series, 2025",
+                        "matchInfo": [
+                            {
+                                "matchId": 118136,
+                                "seriesId": 9728,
+                                "matchDesc": "1st Match",
+                                "matchFormat": "T20",
+                                "startDate": "1746595800000",
+                                "endDate": "1746662399000",
+                                "team1": {
+                                    "teamId": 1132,
+                                    "teamName": "Cook Islands",
+                                    "teamSName": "CIS",
+                                    "imageId": 341077
+                                },
+                                "team2": {
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 9728,
+                        "seriesCategory": "International"
+                    }
+                ],
+                "longDate": "1746576000000"
+            }
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "THU, MAY 08 2025",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 117593,
+                                "seriesId": 7572,
+                                "matchDesc": "63rd Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1746694800000",
+                                "endDate": "1746748799000",
+                                "team1": {
+                                    "teamId": 23,
+                                    "teamName": "Scotland",
+                                    "teamSName": "SCO",
+                                    "imageId": 172137
+                                },
+                                "team2": {
+                                    "teamId": 7,
+                                    "teamName": "United Arab Emirates",
+                                    "teamSName": "UAE",
+                                    "imageId": 172121
+                                },
+                                "venueInfo": {
+                                    "ground": "VRA Cricket Ground",
+                                    "city": "Amstelveen",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 7572,
+                        "seriesHomeCountry": 1,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Japan T20I Tri-Series, 2025",
+                        "matchInfo": [
+                            {
+                                "matchId": 118154,
+                                "seriesId": 9728,
+                                "matchDesc": "2nd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1746682200000",
+                                "endDate": "1746748799000",
+                                "team1": {
+                                    "teamId": 547,
+                                    "teamName": "Japan",
+                                    "teamSName": "JPN",
+                                    "imageId": 248418
+                                },
+                                "team2": {
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 9728,
+                        "seriesCategory": "International"
+                    }
+                ],
+                "longDate": "1746662400000"
+            }
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "FRI, MAY 09 2025",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "Japan T20I Tri-Series, 2025",
+                        "matchInfo": [
+                            {
+                                "matchId": 118163,
+                                "seriesId": 9728,
+                                "matchDesc": "3rd Match",
+                                "matchFormat": "T20",
+                                "startDate": "1746750600000",
+                                "endDate": "1746835199000",
+                                "team1": {
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
+                                },
+                                "team2": {
+                                    "teamId": 1132,
+                                    "teamName": "Cook Islands",
+                                    "teamSName": "CIS",
+                                    "imageId": 341077
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            },
+                            {
+                                "matchId": 118169,
+                                "seriesId": 9728,
+                                "matchDesc": "4th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1746768600000",
+                                "endDate": "1746835199000",
+                                "team1": {
+                                    "teamId": 547,
+                                    "teamName": "Japan",
+                                    "teamSName": "JPN",
+                                    "imageId": 248418
+                                },
+                                "team2": {
+                                    "teamId": 1132,
+                                    "teamName": "Cook Islands",
+                                    "teamSName": "CIS",
+                                    "imageId": 341077
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 9728,
+                        "seriesCategory": "International"
+                    }
+                ],
+                "longDate": "1746748800000"
+            }
+        },
+        {
+            "adDetail": {
+                "name": "native_news_index_random_2",
+                "layout": "native_large",
+                "position": 4
+            }
+        },
+        {
+            "scheduleAdWrapper": {
+                "date": "SAT, MAY 10 2025",
+                "matchScheduleList": [
+                    {
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                        "matchInfo": [
+                            {
+                                "matchId": 117596,
+                                "seriesId": 7572,
+                                "matchDesc": "64th Match",
+                                "matchFormat": "ODI",
+                                "startDate": "1746867600000",
+                                "endDate": "1746921599000",
+                                "team1": {
+                                    "teamId": 24,
+                                    "teamName": "Netherlands",
+                                    "teamSName": "NED",
+                                    "imageId": 172138
+                                },
+                                "team2": {
+                                    "teamId": 23,
+                                    "teamName": "Scotland",
+                                    "teamSName": "SCO",
+                                    "imageId": 172137
+                                },
+                                "venueInfo": {
+                                    "ground": "VRA Cricket Ground",
+                                    "city": "Amstelveen",
+                                    "country": "Netherlands",
+                                    "timezone": "+02:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 7572,
+                        "seriesHomeCountry": 1,
+                        "seriesCategory": "International"
+                    },
+                    {
+                        "seriesName": "Japan T20I Tri-Series, 2025",
+                        "matchInfo": [
+                            {
+                                "matchId": 118178,
+                                "seriesId": 9728,
+                                "matchDesc": "5th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1746837000000",
+                                "endDate": "1746921599000",
+                                "team1": {
+                                    "teamId": 547,
+                                    "teamName": "Japan",
+                                    "teamSName": "JPN",
+                                    "imageId": 248418
+                                },
+                                "team2": {
+                                    "teamId": 384,
+                                    "teamName": "Thailand",
+                                    "teamSName": "THAI",
+                                    "imageId": 172437
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            },
+                            {
+                                "matchId": 118181,
+                                "seriesId": 9728,
+                                "matchDesc": "6th Match",
+                                "matchFormat": "T20",
+                                "startDate": "1746855000000",
+                                "endDate": "1746921599000",
+                                "team1": {
+                                    "teamId": 547,
+                                    "teamName": "Japan",
+                                    "teamSName": "JPN",
+                                    "imageId": 248418
+                                },
+                                "team2": {
+                                    "teamId": 1132,
+                                    "teamName": "Cook Islands",
+                                    "teamSName": "CIS",
+                                    "imageId": 341077
+                                },
+                                "venueInfo": {
+                                    "ground": "Sano International Cricket Ground",
+                                    "city": "Sano, Kanto",
+                                    "country": "Japan",
+                                    "timezone": "+09:00"
+                                }
+                            }
+                        ],
+                        "seriesId": 9728,
+                        "seriesCategory": "International"
+                    }
+                ],
+                "longDate": "1746835200000"
+            }
+        }
+    ],
+    "startDt": [
+        "1746522000000",
+        "1746514800000",
+        "1746529200000",
+        "1746615600000",
+        "1746595800000",
+        "1746694800000",
+        "1746682200000",
+        "1746750600000",
+        "1746768600000",
+        "1746867600000",
+        "1746837000000",
+        "1746855000000",
+        "1746923400000",
+        "1747040400000",
+        "1747101600000",
+        "1747213200000",
+        "1747188000000",
+        "1747386000000",
+        "1747501200000",
+        "1747494000000",
+        "1747674000000",
+        "1747666800000",
+        "1747820700000",
+        "1747846800000",
+        "1747908000000",
+        "1747993500000",
+        "1748019600000",
+        "1748166300000",
+        "1748192400000",
+        "1748185200000",
+        "1748365200000",
+        "1748358000000",
+        "1748520000000",
+        "1748617200000",
+        "1748772000000",
+        "1748790000000",
+        "1748952000000",
+        "1748962800000",
+        "1749231000000",
+        "1749389400000",
+        "1749576600000",
+        "1749636000000",
+        "1749736800000",
+        "1749909600000",
+        "1749996000000",
+        "1749992400000",
+        "1750078800000",
+        "1750165200000",
+        "1750251600000",
+        "1750338000000",
+        "1750413600000",
+        "1750424400000",
+        "1750510800000",
+        "1750860000000",
+        "1751097600000",
+        "1751450400000",
+        "1751551200000",
+        "1751788800000",
+        "1752141600000",
+        "1752328800000",
+        "1752490800000",
+        "1752663600000",
+        "1752836400000",
+        "1752951600000",
+        "1753009200000",
+        "1753210800000",
+        "1753182000000",
+        "1753264800000",
+        "1753354800000",
+        "1753383600000",
+        "1753470000000",
+        "1753527600000",
+        "1753642800000",
+        "1753862400000",
+        "1753956000000",
+        "1753974000000",
+        "1754146800000",
+        "1754233200000",
+        "1754553600000",
+        "1754661600000",
+        "1754834400000",
+        "1754816400000",
+        "1755007200000",
+        "1754989200000",
+        "1755334800000",
+        "1755403200000",
+        "1755577800000",
+        "1755662400000",
+        "1755837000000",
+        "1755921600000",
+        "1756009800000",
+        "1756209600000",
+        "1756468800000",
+        "1756641600000",
+        "1756814400000",
+        "1756987200000",
+        "1757239200000",
+        "1757525400000",
+        "1757698200000",
+        "1757856600000",
+        "1758102300000",
+        "1758275100000",
+        "1758447900000",
+        "1759377600000",
+        "1760068800000",
+        "1760844600000",
+        "1761190200000",
+        "1761363000000",
+        "1761725700000",
+        "1761898500000",
+        "1762071300000",
+        "1762416900000",
+        "1762589700000",
+        "1763092800000",
+        "1763692200000",
+        "1763784000000",
+        "1764489600000",
+        "1764748800000",
+        "1764820800000",
+        "1765008000000",
+        "1765287000000",
+        "1765459800000",
+        "1765719000000",
+        "1765929600000",
+        "1765978200000",
+        "1766151000000",
+        "1766707200000",
+        "1767484800000",
+        "1769529600000",
+        "1769702400000",
+        "1769949000000",
+        "1770220800000",
+        "1770393600000"
+    ],
+    "appIndex": {
+        "seoTitle": "Cricket Schedule - International, domestic and T20 matches - Cricbuzz",
+        "webURL": "www.cricbuzz.com/cricket-schedule/series"
+    }
+}

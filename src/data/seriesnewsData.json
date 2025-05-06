@@ -1,0 +1,323 @@
+{
+    "storyList": [
+        {
+            "story": {
+                "id": 123123,
+                "hline": "Hardik pleased to 'fill the big shoes' of Bumrah",
+                "intro": "With Bumrah not playing, Hardik had to step up with the ball and he showed his ability to adjust to different conditions with vital wickets",
+                "pubTime": "1658123012201",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": 239444,
+                "seoHeadline": "India tour of England, 2022: Hardik pleased to 'fill the big shoes' of Bumrah",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239444",
+                    "caption": "On a track that offered some bounce, Hardik's strategy was to bang the ball short and use it as a wicket-taking option.",
+                    "source": "AFP"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "ad": {
+                "name": "native_news_index",
+                "layout": "native_large",
+                "position": 1
+            }
+        },
+        {
+            "story": {
+                "id": 123124,
+                "hline": "Technical Analysis: How England's Bazball approach revolutionized Test cricket",
+                "intro": "A deep dive into the tactical and technical changes that have transformed England's Test batting under McCullum and Stokes",
+                "pubTime": "1658123012205",
+                "source": "Cricbuzz",
+                "storyType": "Match Features",
+                "imageId": 239445,
+                "seoHeadline": "England's Bazball Revolution: A Technical Analysis",
+                "context": "England vs India Test Series",
+                "coverImage": {
+                    "id": "239445",
+                    "caption": "England's aggressive approach has redefined Test match batting",
+                    "source": "Getty"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123125,
+                "hline": "Root's masterclass: The art of playing spin in subcontinent conditions",
+                "intro": "Former England captain showcases exemplary technique against quality spin bowling",
+                "pubTime": "1658123012206",
+                "source": "Cricbuzz",
+                "storyType": "Match Features",
+                "imageId": 239446,
+                "seoHeadline": "Joe Root's Spin Masterclass in Asian Conditions",
+                "context": "England vs India Test Series",
+                "coverImage": {
+                    "id": "239446",
+                    "caption": "Root's footwork against spin has been exceptional throughout the series",
+                    "source": "Reuters"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123126,
+                "hline": "Anderson defies age with spectacular new-ball spell",
+                "intro": "41-year-old seamer proves age is just a number with devastating opening spell",
+                "pubTime": "1658123012207",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": 239447,
+                "seoHeadline": "James Anderson's Ageless Wonder Continues",
+                "context": "England vs India Test Series",
+                "coverImage": {
+                    "id": "239447",
+                    "caption": "Anderson's mastery of swing bowling continues to amaze cricket fans worldwide",
+                    "source": "ECB"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123127,
+                "hline": "Inside the Mind of a Champion: Kohli's Mental Preparation",
+                "intro": "An exclusive look at how India's batting maestro prepares for crucial Test matches",
+                "pubTime": "1658123012208",
+                "source": "Cricbuzz",
+                "storyType": "Match Features",
+                "imageId": 239448,
+                "seoHeadline": "Virat Kohli's Mental Preparation Techniques Revealed",
+                "context": "England vs India Test Series",
+                "coverImage": {
+                    "id": "239448",
+                    "caption": "Kohli's intense focus during practice sessions reflects his mental strength",
+                    "source": "BCCI"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123128,
+                "hline": "Stokes confirms aggressive approach will continue",
+                "intro": "England captain backs team's positive mindset despite recent setbacks",
+                "pubTime": "1658123012209",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": 239449,
+                "seoHeadline": "Ben Stokes Backs England's Aggressive Approach",
+                "context": "England vs India Test Series",
+                "coverImage": {
+                    "id": "239449",
+                    "caption": "Stokes has transformed England's Test cricket approach since taking over as captain",
+                    "source": "ECB"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123122,
+                "hline": "Pant, Hardik set new template for pressure situations",
+                "intro": "It was India's first century partnership against England in England for the fifth wicket in nearly 8 years, effectively sealing the chase",
+                "pubTime": "1658107811717",
+                "source": "Cricbuzz",
+                "storyType": "Match Features",
+                "imageId": 239442,
+                "seoHeadline": "India tour of England, 2022: Pant, Hardik play the situation to set new template for pressure situations",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239442",
+                    "caption": "Hardik and Pant, with their match-winning partnership, showed India the solution should they find themselves in such situations leading into the ODI World Cup next year.",
+                    "source": "Getty"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123117,
+                "hline": "Hardik, Pant put on a show as India clinch series",
+                "intro": "While Hardik shone with both bat and ball, Pant hit his maiden ODI century in India's successful chase",
+                "pubTime": "1658080238793",
+                "source": "Cricbuzz",
+                "storyType": "Reports",
+                "imageId": 239380,
+                "seoHeadline": "Hardik Pandya, Rishabh Pant put on a show as India clinch series",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239380",
+                    "caption": "Rishabh Pant scored his maiden ODI hundred in India's chase.",
+                    "source": "Getty"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123112,
+                "hline": "Hardik shines as England fold for 259",
+                "intro": "Jos Buttler hit a fifty but didn't find support from the other end in the series decider",
+                "pubTime": "1658067832081",
+                "source": "Cricbuzz",
+                "storyType": "Reports",
+                "imageId": 239228,
+                "seoHeadline": "Hardik Pandya shines as England fold for 259",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239228",
+                    "caption": "Hardik Pandya took career-best ODI figures of 4/24.",
+                    "source": "Getty"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "ad": {
+                "name": "native_news_index_2",
+                "layout": "native_large",
+                "position": 5
+            }
+        },
+        {
+            "story": {
+                "id": 123107,
+                "hline": "Live Cricket Score - England vs India, 3rd ODI",
+                "intro": "Catch all the live updates of England vs India, 3rd ODI, Manchester",
+                "pubTime": "1658049081017",
+                "source": "Cricbuzz",
+                "storyType": "Live Blogs",
+                "imageId": 239286,
+                "seoHeadline": "Live Cricket Score - England vs India, 3rd ODI",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239286",
+                    "caption": "Hardik Pandya picked up four wickets for India.",
+                    "source": "AFP"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123100,
+                "hline": "Suryakumar credits Rohit's support in his cricketing growth",
+                "intro": "The 31-year-old, who made his international debut last year, has established himself as an important member of the Indian limited-overs setup",
+                "pubTime": "1658000363203",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": 239100,
+                "seoHeadline": "Suryakumar credits Rohit's support in his cricketing growth",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239100",
+                    "caption": "Suryakumar Yadav has established himself as an important member of the Indian limited-overs setup",
+                    "source": "AFP"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123094,
+                "hline": "India seek batting fillip in series decider in Manchester",
+                "intro": "The series is tied at 1-1 following England's impressive win in the second ODI",
+                "pubTime": "1657972434574",
+                "source": "Cricbuzz",
+                "storyType": "Previews",
+                "imageId": 239084,
+                "seoHeadline": "India seek batting fillip in series decider in Manchester",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239084",
+                    "caption": "Reece Topley dominated the Indian batting lineup in the second ODI.",
+                    "source": "AFP"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123079,
+                "hline": "How Chahal upstaged England's top batters",
+                "intro": "With subtle variations and plans, the legspinner got the better of Bairstow, Root and Stokes",
+                "pubTime": "1657866932831",
+                "source": "Cricbuzz",
+                "storyType": "Match Features",
+                "imageId": 239061,
+                "seoHeadline": "How Chahal upstaged England's middle order",
+                "context": "Eng vs India, 2nd ODI",
+                "coverImage": {
+                    "id": "239061",
+                    "caption": "Chahal exults after getting Stokes LBW",
+                    "source": "Getty"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123078,
+                "hline": "Rohit throws weight behind out-of-form Kohli ",
+                "intro": "Kohli was dismissed for 16 as India fell short by 100 runs in the chase",
+                "pubTime": "1657856614848",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": 239058,
+                "seoHeadline": "India tour of England, 2022:Rohit Sharma throws weight behind out-of-form Virat Kohli ",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                    "id": "239058",
+                    "caption": "India's collapse came about swiftly as they lost their last four wickets for just 6 runs.",
+                    "source": "AFP"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        },
+        {
+            "story": {
+                "id": 123075,
+                "hline": "Topley snaps six in England's series-levelling win over India at Lord's",
+                "intro": "Topley, who picked 6 for 24, now has the best ever figures by an England bowler in ODI cricket",
+                "pubTime": "1657826342702",
+                "source": "Cricbuzz",
+                "storyType": "Reports",
+                "imageId": 238963,
+                "seoHeadline": "Topley snaps six in England's series-leveling win over India at Lord's",
+                "context": "England v India, 2nd ODI",
+                "coverImage": {
+                    "id": "238963",
+                    "caption": "Topley, who picked 6 for 24, now has the best ever figures by an England bowler in ODI cricket",
+                    "source": "Getty"
+                },
+                "entitlements": {},
+                "adsType": {}
+            }
+        }
+    ],
+    "lastUpdatedTime": "1746445476935",
+    "appIndex": {
+        "seoTitle": "India tour of England, 2022 latest and breaking cricket news - Cricbuzz | Cricbuzz.com",
+        "webURL": "http://www.cricbuzz.com/cricket-series/3636/india-tour-of-england-2022/news"
+    }
+}

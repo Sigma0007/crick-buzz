@@ -1,0 +1,154 @@
+{
+    "player": [
+        {
+            "name": "BATTERS",
+            "isHeader": true
+        },
+        {
+            "id": "11172",
+            "name": "Finn Allen",
+            "role": "Batter",
+            "imageId": 594254,
+            "battingStyle": "Right-hand bat"
+        },
+        {
+            "id": "14514",
+            "name": "Troy Johnson",
+            "role": "Batter",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm offbreak"
+        },
+        {
+            "id": "15567",
+            "name": "Nick Greenwood",
+            "role": "Batter",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat"
+        },
+        {
+            "id": "18567",
+            "name": "James Hartshorn",
+            "role": "Batter",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm medium"
+        },
+        {
+            "name": "ALL ROUNDERS",
+            "isHeader": true
+        },
+        {
+            "id": "9551",
+            "name": "Michael Bracewell",
+            "captain": true,
+            "role": "Batting Allrounder",
+            "imageId": 616430,
+            "battingStyle": "Left-hand bat",
+            "bowlingStyle": "Right-arm offbreak"
+        },
+        {
+            "id": "13364",
+            "name": "Luke Georgeson",
+            "role": "Batting Allrounder",
+            "imageId": 156010,
+            "battingStyle": "Left-hand bat",
+            "bowlingStyle": "Right-arm fast-medium"
+        },
+        {
+            "id": "10724",
+            "name": "Jamie Gibson",
+            "role": "Batting Allrounder",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm fast-medium"
+        },
+        {
+            "id": "11177",
+            "name": "Rachin Ravindra",
+            "role": "Batting Allrounder",
+            "imageId": 655385,
+            "battingStyle": "Left-hand bat",
+            "bowlingStyle": "Left-arm orthodox"
+        },
+        {
+            "id": "13362",
+            "name": "Jakob Bhula",
+            "role": "Batting Allrounder",
+            "imageId": 156122,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm offbreak"
+        },
+        {
+            "id": "11170",
+            "name": "Nathan Smith",
+            "role": "Bowling Allrounder",
+            "imageId": 616429,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm fast-medium"
+        },
+        {
+            "name": "WICKET KEEPERS",
+            "isHeader": true
+        },
+        {
+            "id": "10717",
+            "name": "Tom Blundell",
+            "role": "WK-Batter",
+            "imageId": 170757,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm offbreak"
+        },
+        {
+            "id": "13366",
+            "name": "Callum McLachlan",
+            "role": "WK-Batter",
+            "imageId": 154911,
+            "battingStyle": "Right-hand bat"
+        },
+        {
+            "name": "BOWLERS",
+            "isHeader": true
+        },
+        {
+            "id": "9844",
+            "name": "Ian McPeake",
+            "role": "Bowler",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm fast-medium"
+        },
+        {
+            "id": "10725",
+            "name": "Ollie Newton",
+            "role": "Bowler",
+            "imageId": 174146,
+            "battingStyle": "Left-hand bat",
+            "bowlingStyle": "Right-arm medium"
+        },
+        {
+            "id": "14343",
+            "name": "Michael Snedden",
+            "role": "Bowler",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm fast-medium"
+        },
+        {
+            "id": "12215",
+            "name": "Peter Younghusband",
+            "role": "Bowler",
+            "imageId": 165715,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm legbreak"
+        },
+        {
+            "id": "11178",
+            "name": "Ben Sears",
+            "role": "Bowler",
+            "imageId": 174146,
+            "battingStyle": "Right-hand bat",
+            "bowlingStyle": "Right-arm fast-medium"
+        }
+    ]
+}
