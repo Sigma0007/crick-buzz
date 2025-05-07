@@ -1,0 +1,65 @@
+{
+    "player": [
+        {
+            "id": "11808",
+            "name": "Shubman Gill",
+            "teamName": "India",
+            "faceImageId": 616515
+        },
+        {
+            "id": "27233",
+            "name": "Arslan Amjad",
+            "teamName": "Estonia",
+            "faceImageId": 182026
+        },
+        {
+            "id": "13272",
+            "name": "Scott Edwards",
+            "teamName": "Netherlands",
+            "faceImageId": 352472
+        },
+        {
+            "id": "21216",
+            "name": "Varun Prasath Thamotharam",
+            "teamName": "Malta",
+            "faceImageId": 182026
+        },
+        {
+            "id": "14254",
+            "name": "Prabhsimran Singh",
+            "teamName": "India",
+            "faceImageId": 226515
+        },
+        {
+            "id": "10103",
+            "name": "George Munsey",
+            "teamName": "Scotland",
+            "faceImageId": 244688
+        },
+        {
+            "id": "7736",
+            "name": "Andre Russell",
+            "teamName": "West Indies",
+            "faceImageId": 170821
+        },
+        {
+            "id": "13646",
+            "name": "Romario Shepherd",
+            "teamName": "West Indies",
+            "faceImageId": 593798
+        },
+        {
+            "id": "10551",
+            "name": "Prasidh Krishna",
+            "teamName": "India",
+            "faceImageId": 591958
+        },
+        {
+            "id": "55753",
+            "name": "Ahmed Aqeel",
+            "teamName": "Malaysia",
+            "faceImageId": 182026
+        }
+    ],
+    "category": "TRENDING SEARCHES"
+}

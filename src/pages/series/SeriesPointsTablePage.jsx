@@ -95,7 +95,7 @@ function SeriesPointsTablePage() {
         ← Back to Series List
       </Link>
 
-      <div className="flex justify-between items-center mb-6">
+      {/* <div className="flex justify-between items-center mb-6">
         <h1 className="text-3xl font-bold text-blue-900">Squad</h1>
         {series && (
           <Link
@@ -105,7 +105,7 @@ function SeriesPointsTablePage() {
             View Matches →
           </Link>
         )}
-      </div>
+      </div> */}
 
       {!series ? (
         <div className="text-gray-500">Loading series information...</div>

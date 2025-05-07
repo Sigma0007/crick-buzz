@@ -58,7 +58,7 @@ function SeriesPage() {
       <div className="max-w-7xl mx-auto p-8">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
           <h1 className="text-3xl font-bold text-green-900">Cricket Series</h1>
-          <div className="flex gap-2 bg-white rounded-lg shadow p-1">
+          {/* <div className="flex gap-2 bg-white rounded-lg shadow p-1">
             <Link
               to="/series"
               className="px-3 py-1.5 rounded-md text-sm font-medium text-green-800 bg-green-100"
@@ -77,7 +77,7 @@ function SeriesPage() {
             >
               News
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {seriesListArr.length === 0 ? (
@@ -108,14 +108,14 @@ function SeriesPage() {
                       {formatDate(series.startDt)} - {formatDate(series.endDt)}
                     </div>
                   </div>
-                  <div className="mt-4 flex gap-2">
+                  {/* <div className="mt-4 flex gap-2">
                     <Link
                       to={`/series/${series.id}/matches`}
                       className="text-sm text-green-600 hover:text-green-800"
                     >
                       View Matches →
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

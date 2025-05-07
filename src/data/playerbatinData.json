@@ -1,0 +1,168 @@
+{
+    "headers": [
+        "ROWHEADER",
+        "Test",
+        "ODI",
+        "T20",
+        "IPL"
+    ],
+    "values": [
+        {
+            "values": [
+                "Matches",
+                "58",
+                "85",
+                "72",
+                "142"
+            ]
+        },
+        {
+            "values": [
+                "Innings",
+                "101",
+                "79",
+                "68",
+                "133"
+            ]
+        },
+        {
+            "values": [
+                "Runs",
+                "3257",
+                "3043",
+                "2265",
+                "5064"
+            ]
+        },
+        {
+            "values": [
+                "Balls",
+                "6168",
+                "3451",
+                "1628",
+                "3747"
+            ]
+        },
+        {
+            "values": [
+                "Highest",
+                "199",
+                "112",
+                "110",
+                "132"
+            ]
+        },
+        {
+            "values": [
+                "Average",
+                "33.58",
+                "49.08",
+                "37.75",
+                "45.62"
+            ]
+        },
+        {
+            "values": [
+                "SR",
+                "52.81",
+                "88.18",
+                "139.13",
+                "135.15"
+            ]
+        },
+        {
+            "values": [
+                "Not Out",
+                "4",
+                "17",
+                "8",
+                "22"
+            ]
+        },
+        {
+            "values": [
+                "Fours",
+                "386",
+                "235",
+                "191",
+                "430"
+            ]
+        },
+        {
+            "values": [
+                "Sixes",
+                "26",
+                "67",
+                "99",
+                "203"
+            ]
+        },
+        {
+            "values": [
+                "Ducks",
+                "9",
+                "3",
+                "5",
+                "4"
+            ]
+        },
+        {
+            "values": [
+                "50s",
+                "17",
+                "18",
+                "22",
+                "40"
+            ]
+        },
+        {
+            "values": [
+                "100s",
+                "8",
+                "7",
+                "2",
+                "4"
+            ]
+        },
+        {
+            "values": [
+                "200s",
+                "0",
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "values": [
+                "300s",
+                "0",
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "values": [
+                "400s",
+                "0",
+                "0",
+                "0",
+                "0"
+            ]
+        }
+    ],
+    "appIndex": {
+        "seoTitle": "KL Rahul Profile - Cricbuzz | Cricbuzz.com",
+        "webURL": "http://www.cricbuzz.com/profiles/8733/kl-rahul"
+    },
+    "seriesSpinner": [
+        {
+            "seriesName": "Career"
+        },
+        {
+            "seriesId": 9237,
+            "seriesName": "Indian Premier League 2025"
+        }
+    ]
+}

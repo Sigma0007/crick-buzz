@@ -1,0 +1,41 @@
+{
+    "values": [
+        {
+            "name": "t20",
+            "debut": "vs Zimbabwe,  2016-06-18, Harare Sports Club",
+            "lastPlayed": "vs England,  2022-11-10, Adelaide Oval",
+            "debutMatchID": "16610",
+            "lastPlayedMatchId": "43201"
+        },
+        {
+            "name": "test",
+            "debut": "vs Australia,  2014-12-26, Melbourne Cricket Ground",
+            "lastPlayed": "vs Australia,  2025-01-03, Sydney Cricket Ground",
+            "debutMatchID": "13842",
+            "lastPlayedMatchId": "91814"
+        },
+        {
+            "name": "odi",
+            "debut": "vs Zimbabwe,  2016-06-11, Harare Sports Club",
+            "lastPlayed": "vs New Zealand,  2025-03-09, Dubai International Cricket Stadium",
+            "debutMatchID": "16607",
+            "lastPlayedMatchId": "112469"
+        },
+        {
+            "name": "ipl",
+            "debut": "vs Kolkata Knight Riders,  2013-04-11, M.Chinnaswamy Stadium",
+            "lastPlayed": "vs Sunrisers Hyderabad,  2025-05-05, Rajiv Gandhi International Stadium",
+            "debutMatchID": "11876",
+            "lastPlayedMatchId": "115327"
+        },
+        {
+            "name": "cl",
+            "debut": "Not played",
+            "lastPlayed": "Not played"
+        }
+    ],
+    "appIndex": {
+        "seoTitle": "KL Rahul Profile - Cricbuzz | Cricbuzz.com",
+        "webURL": "http://www.cricbuzz.com/profiles/8733/kl-rahul"
+    }
+}

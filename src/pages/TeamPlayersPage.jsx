@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import teamplayerData from "../data/teamplayerData.json";
+// import ReactPlayer from 'react-player';
 
 function TeamPlayersPage() {
   const { teamId } = useParams();
@@ -24,12 +25,12 @@ function TeamPlayersPage() {
               className="relative bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 group hover:shadow-2xl"
               style={{ minHeight: 260 }}
             >
-              {/* Diagonal background split */}
+              {/* Show triangle only on hover */}
               <div
-                className="absolute inset-0"
+                className="absolute inset-0 z-0 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 style={{
-                  background: "linear-gradient(135deg, #f5faff 60%, #0a2e5d 60%)",
-                  zIndex: 0,
+                  clipPath: "polygon(100% 0, 100% 100%, 0 100%)",
+                  background: "#0a2e5d"
                 }}
               />
               {/* Jersey SVG or image */}
@@ -68,7 +69,7 @@ function TeamPlayersPage() {
               {/* Player image */}
               <div className="absolute right-4 top-4 z-20">
                 <img
-                  src="/images/players/static-player.jpg"
+                  src="https://www.bing.com/th/id/OIP.HAUYFeZOQuPDfsT5ORpMygAAAA?w=117&h=106&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
                   alt="Player"
                   className="w-20 h-20 object-cover rounded-full border-4 border-white shadow-lg group-hover:scale-105 transition-transform duration-300"
                 />

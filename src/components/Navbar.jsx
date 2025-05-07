@@ -8,10 +8,9 @@ const navItems = [
   { name: 'schedules', path: '/schedules' },
   { name: 'series', path: '/series' },
   { name: 'teams', path: '/teams' },
-  { name: 'venues', path: '/venues' },
+  // { name: 'venues', path: '/venues' },
   { name: 'players', path: '/players' },
   { name: 'news', path: '/news' },
-  { name: 'photos', path: '/photos' },
   { name: 'stats', path: '/stats' },
 ];
 

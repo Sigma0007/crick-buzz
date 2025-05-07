@@ -79,7 +79,7 @@ function SeriesNewsPage() {
             <h1 className="text-3xl font-bold text-green-900">Series News</h1>
           </div>
 
-          <div className="flex gap-2 bg-white rounded-lg shadow p-1">
+          {/* <div className="flex gap-2 bg-white rounded-lg shadow p-1">
             <Link
               to="/series"
               className="px-3 py-1.5 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900"
@@ -98,7 +98,7 @@ function SeriesNewsPage() {
             >
               News
             </Link>
-          </div>
+          </div> */}
         </div>
 
         {loading ? (
