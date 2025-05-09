@@ -192,6 +192,17 @@ export const cricketTheme = {
         default: 'bg-slate-100 text-slate-800',
       },
       highlight: 'relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-violet-600/20 before:to-fuchsia-600/20 before:translate-x-full hover:before:translate-x-0 before:transition-transform before:duration-500',
+      // New styles for news detail page
+      detail: {
+        container: 'max-w-4xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden',
+        header: 'p-6 border-b border-slate-100',
+        body: 'p-6',
+        image: 'w-full h-96 object-cover',
+        caption: 'bg-slate-800 bg-opacity-80 text-white p-3 text-sm',
+        meta: 'flex items-center text-sm text-slate-500 space-x-4',
+        content: 'prose prose-violet max-w-none',
+        blockquote: 'border-l-4 border-violet-500 pl-4 py-2 italic text-slate-700',
+      },
     },
     button: {
       primary: 'bg-violet-700 hover:bg-violet-800 text-white font-medium py-2 px-4 rounded-lg transition-colors',
@@ -239,6 +250,42 @@ export const cricketTheme = {
     },
     loader: {
       spinner: 'w-16 h-16 border-4 border-violet-500 border-t-transparent rounded-full animate-spin',
+    },
+    // Add player component styles here
+    player: {
+      card: 'bg-white rounded-xl shadow-md overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300',
+      header: 'bg-gradient-to-r from-violet-600 to-violet-800 h-16 flex items-center justify-center',
+      avatar: 'w-24 h-24 object-cover rounded-full border-4 border-white shadow-md mt-8',
+      content: 'pt-12 pb-4 px-4 text-center',
+      name: 'text-lg font-bold text-violet-900',
+      team: 'text-sm text-violet-600 mb-2',
+      role: 'text-xs bg-violet-100 text-violet-800 rounded-full px-3 py-1 inline-block',
+      stats: {
+        table: 'min-w-full text-sm',
+        header: 'bg-gradient-to-r from-violet-700 to-violet-600 text-white',
+        headerCell: 'px-4 py-3 font-semibold text-left',
+        row: 'border-t border-violet-50',
+        rowAlt: 'bg-violet-50/50',
+        cell: 'px-4 py-3',
+      },
+      info: {
+        container: 'bg-violet-100 rounded-xl p-6',
+        avatar: 'w-32 h-32 object-cover rounded-full border-4 border-white shadow-md mx-auto',
+        name: 'text-xl font-bold text-violet-900 mt-3',
+        nickname: 'text-violet-600 text-sm',
+        grid: 'grid grid-cols-2 gap-2 text-sm',
+        label: 'text-violet-800 font-medium',
+        value: 'text-slate-700',
+        bio: {
+          container: 'overflow-y-auto max-h-[483px] pr-4 scrollbar-thin',
+          title: 'text-lg font-semibold text-violet-900 mb-3',
+          content: 'text-slate-700 leading-relaxed',
+        },
+        teams: {
+          container: 'flex flex-wrap gap-2',
+          item: 'bg-violet-100 text-violet-800 px-3 py-1 rounded-full text-sm',
+        },
+      },
     },
   },
   
@@ -288,6 +335,37 @@ export const cricketTheme = {
     tilt: 'hover:rotate-1 transition-transform duration-300',
     float: 'hover:-translate-y-1 transition-transform duration-300',
     scale: 'hover:scale-105 transition-transform duration-300',
+    // Add animation classes
+    animations: {
+      floatSlow: 'animate-float-slow',
+      floatSlowDelayed: 'animate-float-slow-delayed',
+      spinSlow: 'animate-spin-slow',
+    },
+    // Add animation keyframes as a string to be injected
+    keyframes: `
+      @keyframes float-slow {
+        0%, 100% { transform: translateY(0) translateX(-25%); }
+        50% { transform: translateY(-10px) translateX(-25%); }
+      }
+      @keyframes float-slow-delayed {
+        0%, 100% { transform: translateY(0) translateX(25%); }
+        50% { transform: translateY(-10px) translateX(25%); }
+      }
+      @keyframes spin-slow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .animate-float-slow {
+        animation: float-slow 5s ease-in-out infinite;
+      }
+      .animate-float-slow-delayed {
+        animation: float-slow-delayed 5s ease-in-out infinite;
+        animation-delay: 2.5s;
+      }
+      .animate-spin-slow {
+        animation: spin-slow 15s linear infinite;
+      }
+    `
   }
 };
 

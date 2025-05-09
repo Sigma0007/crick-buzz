@@ -123,12 +123,7 @@ function TeamsPage() {
                 </div>
                 <div className="bg-gray-200 px-6 py-4 mb-6">
                   <div className="flex justify-center space-x-4">
-                    <Link
-                      to={`/teams/${team.teamId}/players`}
-                      className="text-sm font-medium text-green-600 hover:text-green-800"
-                    >
-                      Players
-                    </Link>
+                    <Link to={`/teams/${team.teamId}/players`}>Players</Link>
                     <Link
                       to={`/teams/${team.teamId}/matches`}
                       className="text-sm font-medium text-green-600 hover:text-green-800"
