@@ -142,7 +142,7 @@ function SeriesNewsPage() {
               </div>
             </div>
 
-            <div className="flex justify-end mb-6">
+            {/* <div className="flex justify-end mb-6">
               <div className="flex gap-2 bg-white rounded-lg shadow p-1">
                 <button
                   onClick={() => setFilter('all')}
@@ -175,7 +175,7 @@ function SeriesNewsPage() {
                   Features
                 </button>
               </div>
-            </div>
+            </div> */}
 
             {filteredNews.length === 0 ? (
               <div className="bg-white rounded-lg shadow p-8 text-center">

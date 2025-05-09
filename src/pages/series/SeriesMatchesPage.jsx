@@ -1,14 +1,20 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import seriesmatchesData from "../../data/seriesmatchesData.json";
+import { cricketTheme, cx } from "../../theme/theme.jsx";
 
 function SeriesMatchesPage() {
   const { seriesId } = useParams();
   const [series, setSeries] = useState(null);
   const [matches, setMatches] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!seriesmatchesData?.matchDetails) return;
+    setLoading(true);
+    if (!seriesmatchesData?.matchDetails) {
+      setLoading(false);
+      return;
+    }
 
     const seriesMatches = [];
     let seriesInfo = null;
@@ -39,6 +45,7 @@ function SeriesMatchesPage() {
     
     setSeries(seriesInfo);
     setMatches(seriesMatches);
+    setLoading(false);
   }, [seriesId]);
 
   const formatScore = (score) => {
@@ -52,6 +59,32 @@ function SeriesMatchesPage() {
     }
     return result.join(' & ');
   };
+
+  const formatDate = (timestamp) => {
+    return new Date(Number(timestamp)).toLocaleDateString('en-US', {
+      weekday: 'short',
+      day: 'numeric',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+  };
+
+  if (loading) {
+    return (
+      <div className={cx(
+        cricketTheme.background.alt,
+        cricketTheme.layout.flex.center,
+        "min-h-screen"
+      )}>
+        <div className="text-center">
+          <div className={cx(cricketTheme.components.loader.spinner, "mx-auto mb-4")}></div>
+          <p className={cricketTheme.typography.body.medium}>Loading matches...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-8 max-w-4xl mx-auto">

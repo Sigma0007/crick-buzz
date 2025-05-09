@@ -9,14 +9,15 @@ import TeamsPage from '../pages/TeamsPage';
 import PlayersPage from '../pages/PlayersPage';
 import NewsPage from '../pages/NewsPage';
 import NewsDetailPage from "../pages/NewsDetailPage";
-import StatsPage from '../pages/StatsPage';
+// import StatsPage from '../pages/StatsPage';
 import MatchDetailPage from "../pages/MatchDetailPage";
 import SeriesDetailPage from '../pages/series/SeriesDetailPage';
 import SeriesNewsPage from '../pages/series/SeriesNewsPage';
 import SeriesPointsTablePage from '../pages/series/SeriesPointsTablePage';
 import SeriesMatchesPage from '../pages/series/SeriesMatchesPage';
-import TeamPlayersPage from '../pages/TeamPlayersPage';
+// import TeamPlayersPage from '../pages/TeamPlayersPage';
 import TeamMatchesPage from '../pages/TeamMatchesPage';
+// import BattingRecordsPage from '../pages/BattingRecordsPage';
 
 function AppRouter({ data }) {
   return (
@@ -36,10 +37,11 @@ function AppRouter({ data }) {
           <Route path="/players" element={<PlayersPage />} />
           <Route path="/news" element={<NewsPage />} />
           <Route path="/news-detail" element={<NewsDetailPage />} />
-          <Route path="/stats" element={<StatsPage />} />
+          {/* <Route path="/stats" element={<StatsPage />} /> */}
           <Route path="/match/:matchId" element={<MatchDetailPage />} />
-          <Route path="/teams/:teamId/players" element={<TeamPlayersPage />} />
+          {/* <Route path="/teams/:teamId/players" element={<TeamPlayersPage />} /> */}
           <Route path="/teams/:teamId/matches" element={<TeamMatchesPage />} />
+          {/* <Route path="/batting-records" element={<BattingRecordsPage />} /> */}
         </Routes>
       </Layout>
     </BrowserRouter>
