@@ -97,38 +97,38 @@ function HomePage() {
   const topStories = newsListData.storyList?.filter(item => item.story).slice(0, 3) || [];
 
   // If we don't have enough stories, add placeholders
-  const placeholderStories = [
-    {
-      story: {
-        id: "placeholder1",
-        hline: "India Announces Squad for Upcoming Series",
-        intro: "The BCCI has announced a 15-member squad for the upcoming series against Australia.",
-        context: "Breaking News",
-        source: "Cricket News",
-        pubTime: Date.now().toString()
-      }
-    },
-    {
-      story: {
-        id: "placeholder2",
-        hline: "England vs New Zealand: 3rd Test Day 2",
-        intro: "England leads by 45 runs with 7 wickets remaining in the first innings.",
-        context: "Match Update",
-        source: "Live Updates",
-        pubTime: Date.now().toString()
-      }
-    },
-    {
-      story: {
-        id: "placeholder3",
-        hline: "Top 10 Batsmen in T20 Cricket",
-        intro: "Check out the latest ICC rankings for T20 batsmen and their performance stats.",
-        context: "Player Stats",
-        source: "Cricket Stats",
-        pubTime: Date.now().toString()
-      }
-    }
-  ];
+  // const placeholderStories = [
+  //   {
+  //     story: {
+  //       id: "placeholder1",
+  //       hline: "India Announces Squad for Upcoming Series",
+  //       intro: "The BCCI has announced a 15-member squad for the upcoming series against Australia.",
+  //       context: "Breaking News",
+  //       source: "Cricket News",
+  //       pubTime: Date.now().toString()
+  //     }
+  //   },
+  //   {
+  //     story: {
+  //       id: "placeholder2",
+  //       hline: "England vs New Zealand: 3rd Test Day 2",
+  //       intro: "England leads by 45 runs with 7 wickets remaining in the first innings.",
+  //       context: "Match Update",
+  //       source: "Live Updates",
+  //       pubTime: Date.now().toString()
+  //     }
+  //   },
+  //   {
+  //     story: {
+  //       id: "placeholder3",
+  //       hline: "Top 10 Batsmen in T20 Cricket",
+  //       intro: "Check out the latest ICC rankings for T20 batsmen and their performance stats.",
+  //       context: "Player Stats",
+  //       source: "Cricket Stats",
+  //       pubTime: Date.now().toString()
+  //     }
+  //   }
+  // ];
 
   // Combine real stories with placeholders if needed
   const displayStories = topStories.length === 3 ? topStories : 

@@ -11,7 +11,7 @@ function SchedulesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-50 via-indigo-50 to-sky-50 py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Header with decorative elements */}
+        {/* Header with decorative elements blur bg circle */}
         <div className="relative mb-12 text-center">
           <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-24 h-24 bg-gradient-to-br from-amber-300 to-amber-500 rounded-full opacity-20 blur-xl"></div>
           <div className="absolute -top-4 left-1/3 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-br from-violet-400 to-fuchsia-500 rounded-full opacity-20 blur-xl"></div>
@@ -20,6 +20,7 @@ function SchedulesPage() {
           <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-700 to-indigo-800 inline-block relative z-10">
             Match Schedules
           </h2>
+          {/* bottom line in orange in header */}
           <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 mx-auto mt-2 rounded-full"></div>
           <p className="mt-3 text-indigo-600 max-w-2xl mx-auto">
             Stay updated with upcoming cricket matches from around the world
@@ -44,7 +45,7 @@ function SchedulesPage() {
                   <div className={cx(
                     "inline-block px-6 py-2 rounded-full shadow-lg",
                     "bg-gradient-to-r from-violet-600 to-indigo-700 text-white font-bold",
-                    "transform -rotate-1 relative z-10",
+                    "transform -rotate-3 ",
                     cricketTheme.effects.glow
                   )}>
                     <span className="text-sm tracking-wider uppercase">{formattedDate}</span>
@@ -70,19 +71,22 @@ function SchedulesPage() {
                           `bg-gradient-to-r ${seriesColor} text-white`
                         )}>
                           {/* Decorative circles */}
-                          <div className="absolute -right-8 -top-8 w-24 h-24 bg-white/10 rounded-full"></div>
+                          {/* <div className="absolute -right-8 -top-8 w-24 h-24 bg-white/10 rounded-full"></div>
                           <div className="absolute -right-4 -bottom-4 w-16 h-16 bg-white/10 rounded-full"></div>
-                          <div className="absolute left-1/2 -bottom-6 w-12 h-12 bg-white/10 rounded-full"></div>
+                          <div className="absolute left-1/2 -bottom-6 w-12 h-12 bg-white/10 rounded-full"></div> */}
                           
+                          {/* icon or logo */}
                           <h3 className="text-lg font-bold relative z-10 flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                             </svg>
                             {seriesData.seriesName}
                           </h3>
-                          <span className="inline-block bg-white/20 text-white text-xs font-medium px-2 py-0.5 rounded-full mt-1 backdrop-blur-sm">
-                            {seriesFormat}
-                          </span>
+
+                            <span className="inline-block bg-white/20 text-white text-xs font-medium px-2 py-0.5 rounded-full mt-1 backdrop-blur-sm">
+                              {seriesFormat}
+                            </span>
+                            
                         </div>
                         
                         <div className="divide-y divide-indigo-100">
@@ -92,9 +96,11 @@ function SchedulesPage() {
                             return (
                               <div key={match.matchId} className="p-4 hover:bg-indigo-50/50 transition-colors">
                                 <div className="flex justify-between items-center mb-3">
+                                  {/* match count */}
                                   <span className="font-medium text-indigo-900">
                                     {match.matchDesc}
                                   </span>
+                                  {/* time */}
                                   <span className={cx(
                                     "inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium",
                                     "bg-gradient-to-r from-indigo-100 to-violet-100 text-indigo-800 shadow-sm"
@@ -107,6 +113,8 @@ function SchedulesPage() {
                                 </div>
                                 
                                 <div className="flex items-center justify-between mb-4">
+
+                                  {/* team 1 */}
                                   <div className="flex items-center gap-3 flex-1">
                                     <div className={cx(
                                       "w-10 h-10 rounded-full flex items-center justify-center font-bold text-white shadow-md",
@@ -134,6 +142,7 @@ function SchedulesPage() {
                                   </div>
                                 </div>
                                 
+                                {/* ground */}
                                 <div className="flex items-center justify-between text-xs text-slate-500 bg-slate-50 p-2 rounded-lg">
                                   <div className="flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -143,6 +152,7 @@ function SchedulesPage() {
                                     {match.venueInfo.ground}, {match.venueInfo.city}
                                   </div>
                                   
+                                  {/* match type */}
                                   <span className={cx(
                                     "inline-block px-2 py-0.5 rounded text-xs font-medium",
                                     "bg-gradient-to-r from-violet-100 to-indigo-100 text-violet-800"

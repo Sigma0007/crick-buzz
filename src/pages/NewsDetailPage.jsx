@@ -6,16 +6,16 @@ import { cricketTheme, cx } from "../theme/theme.jsx";
 function NewsDetailPage() {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
-  
+
   useEffect(() => {
     // Simulate loading data
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 800);
-    
+
     return () => clearTimeout(timer);
   }, []);
-  
+
   if (isLoading) {
     return (
       <div className={cx(
@@ -26,7 +26,7 @@ function NewsDetailPage() {
       </div>
     );
   }
-  
+
   // Format date
   const date = newsDetailData.pubTime
     ? new Date(Number(newsDetailData.pubTime)).toLocaleDateString("en-GB", {
@@ -57,7 +57,7 @@ function NewsDetailPage() {
             <span className="text-slate-700">Article</span>
           </div>
         </div>
-        
+
         <div className="max-w-4xl mx-auto">
           {/* Category badge */}
           <div className="mb-4">
@@ -68,7 +68,7 @@ function NewsDetailPage() {
               {newsDetailData.context || "Cricket News"}
             </span>
           </div>
-          
+
           {/* Headline */}
           <h1 className={cx(
             cricketTheme.typography.heading[1],
@@ -76,29 +76,15 @@ function NewsDetailPage() {
           )}>
             {newsDetailData.headline}
           </h1>
-          
+
           {/* Meta information */}
           <div className="flex items-center justify-between mb-6 text-sm text-slate-500">
             <div className="flex items-center">
               <span className="mr-4">{date}</span>
               <span>Source: {newsDetailData.source}</span>
             </div>
-            
-            {/* Share buttons */}
-            <div className="flex space-x-2">
-              <button className="p-2 rounded-full bg-slate-100 hover:bg-slate-200 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-600" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
-                </svg>
-              </button>
-              <button className="p-2 rounded-full bg-slate-100 hover:bg-slate-200 transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-600" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
-                </svg>
-              </button>
-            </div>
           </div>
-          
+
           {/* Cover image */}
           {newsDetailData.coverImage && (
             <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
@@ -114,7 +100,7 @@ function NewsDetailPage() {
               )}
             </div>
           )}
-          
+
           {/* Article content */}
           <div className={cx(
             "bg-white rounded-2xl shadow-md p-8 mb-8",
@@ -127,7 +113,7 @@ function NewsDetailPage() {
             )}>
               {newsDetailData.intro}
             </div>
-            
+
             {/* Main content */}
             <div className={cx(
               cricketTheme.typography.body.medium,
@@ -140,7 +126,7 @@ function NewsDetailPage() {
                 ))}
             </div>
           </div>
-          
+
           {/* Related articles */}
           <div className="mb-8">
             <h3 className={cx(
@@ -149,11 +135,11 @@ function NewsDetailPage() {
             )}>
               Related Articles
             </h3>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[1, 2, 3].map((item) => (
-                <div 
-                  key={item} 
+                <div
+                  key={item}
                   className={cx(
                     cricketTheme.components.news.card,
                     "cursor-pointer"
@@ -161,8 +147,11 @@ function NewsDetailPage() {
                   onClick={() => navigate("/news-detail")}
                 >
                   <div className="h-40 bg-gradient-to-r from-violet-500 to-indigo-600 relative overflow-hidden">
-                    <div className="absolute inset-0 flex items-center justify-center text-white text-opacity-20 text-6xl font-bold">
-                      NEWS
+                    <div className="absolute inset-0 flex items-center">
+                      <img
+                        src={"https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+                        alt={newsDetailData.coverImage.caption}
+                      />
                     </div>
                   </div>
                   <div className="p-4">
@@ -181,11 +170,11 @@ function NewsDetailPage() {
               ))}
             </div>
           </div>
-          
+
           {/* Back to news button */}
           <div className="text-center">
-            <Link 
-              to="/news" 
+            <Link
+              to="/news"
               className={cx(
                 cricketTheme.components.button.outline,
                 "inline-flex items-center"

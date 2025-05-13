@@ -60,7 +60,7 @@ function SeriesDetailPage() {
   if (loading) {
     return (
       <div className={cx(
-        "min-h-screen pt-20 pb-12 flex items-center justify-center",
+        "min-h-screen pt-20  flex items-center justify-center",
         cricketTheme.background.main
       )}>
         <div className={cricketTheme.components.loader.spinner}></div>
@@ -71,7 +71,7 @@ function SeriesDetailPage() {
   if (!series) {
     return (
       <div className={cx(
-        "min-h-screen pt-20 pb-12",
+        "min-h-screen  ",
         cricketTheme.background.main
       )}>
         <div className={cx(
@@ -86,8 +86,8 @@ function SeriesDetailPage() {
             )}>
               The series you're looking for doesn't exist or has been removed.
             </p>
-            <Link 
-              to="/series" 
+            <Link
+              to="/series"
               className={cx(
                 cricketTheme.components.button.primary,
                 "mt-6 inline-block"
@@ -109,7 +109,7 @@ function SeriesDetailPage() {
 
   return (
     <div className={cx(
-      "min-h-screen pt-20 pb-12",
+      "min-h-screen ",
       cricketTheme.background.main
     )}>
       <div className={cx(
@@ -146,49 +146,7 @@ function SeriesDetailPage() {
           </div>
         </div>
 
-        {/* Navigation Tabs */}
-        {/* <div className="bg-white rounded-xl shadow-md mb-8 overflow-hidden">
-          <div className={cricketTheme.components.tabs.list}>
-            <Link 
-              to={`/series/${seriesId}`} 
-              className={cx(
-                cricketTheme.components.tabs.tab,
-                cricketTheme.components.tabs.active
-              )}
-            >
-              Overview
-            </Link>
-            <Link 
-              to={`/series/${seriesId}/matches`} 
-              className={cx(
-                cricketTheme.components.tabs.tab,
-                cricketTheme.components.tabs.inactive
-              )}
-            >
-              Matches
-            </Link>
-            <Link 
-              to={`/series/${seriesId}/news`} 
-              className={cx(
-                cricketTheme.components.tabs.tab,
-                cricketTheme.components.tabs.inactive
-              )}
-            >
-              News
-            </Link>
-            <Link 
-              to={`/series/${seriesId}/points-table`} 
-              className={cx(
-                cricketTheme.components.tabs.tab,
-                cricketTheme.components.tabs.inactive
-              )}
-            >
-              Points Table
-            </Link>
-          </div>
-        </div> */}
 
-        {/* Series Overview Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <div className={cx(
@@ -203,7 +161,7 @@ function SeriesDetailPage() {
                   {series.name} is a {format?.toLowerCase() || "cricket"} series featuring top teams competing for the championship.
                   The tournament runs from {formattedStartDate} to {formattedEndDate}.
                 </p>
-                
+
                 <div className="mt-6 grid grid-cols-2 gap-4">
                   <div>
                     <h3 className="text-sm font-medium text-slate-500">Format</h3>
@@ -242,7 +200,7 @@ function SeriesDetailPage() {
                         {latestMatch.matchScore?.team1Score?.inngs1?.wickets || '-'}
                       </div>
                     </div>
-                    
+
                     <div className="text-center">
                       <div className="text-xs font-medium text-slate-500 mb-1">
                         {new Date(Number(latestMatch.matchInfo.startDate)).toLocaleDateString()}
@@ -254,7 +212,7 @@ function SeriesDetailPage() {
                         {latestMatch.matchInfo.matchFormat}
                       </div>
                     </div>
-                    
+
                     <div className="text-center">
                       <div className="font-bold">{latestMatch.matchInfo.team2.teamName}</div>
                       <div className="text-sm text-slate-500">
@@ -263,12 +221,12 @@ function SeriesDetailPage() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="mt-4 text-center">
                     <div className="text-sm font-medium">
                       {latestMatch.matchInfo.status}
                     </div>
-                    <Link 
+                    <Link
                       to={`/matches/${latestMatch.matchInfo.matchId}`}
                       className={cx(
                         cricketTheme.components.button.outline,
@@ -293,7 +251,7 @@ function SeriesDetailPage() {
               </div>
               <div className={cricketTheme.components.card.body}>
                 <nav className="flex flex-col space-y-2">
-                  <Link 
+                  <Link
                     to={`/series/${seriesId}/matches`}
                     className="flex items-center justify-between p-3 rounded-lg hover:bg-slate-50 transition-colors"
                   >
@@ -302,7 +260,7 @@ function SeriesDetailPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                  <Link 
+                  <Link
                     to={`/series/${seriesId}/news`}
                     className="flex items-center justify-between p-3 rounded-lg hover:bg-slate-50 transition-colors"
                   >
@@ -311,15 +269,6 @@ function SeriesDetailPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                  {/* <Link 
-                    to={`/series/${seriesId}/points-table`}
-                    className="flex items-center justify-between p-3 rounded-lg hover:bg-slate-50 transition-colors"
-                  >
-                    <span className="font-medium text-slate-700">Points Table</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link> */}
                 </nav>
               </div>
             </div>

@@ -45,7 +45,7 @@ function SeriesPage() {
 
   const seriesListArr = Array.from(seriesMap.values())
     .sort((a, b) => Number(b.startDt) - Number(a.startDt)); // Sort by start date, newest first
-
+``
   const formatDate = (timestamp) => {
     const date = new Date(Number(timestamp));
     return `${date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
@@ -70,16 +70,6 @@ function SeriesPage() {
             Cricket Series
           </h1>
           <div className="bg-white rounded-full shadow-sm p-1 flex">
-            {/* <button
-              onClick={() => setActiveFilter("all")}
-              className={`px-4 py-1 rounded-full text-sm font-medium transition-colors ${
-                activeFilter === "all" 
-                  ? "bg-purple-600 text-white" 
-                  : "text-gray-700 hover:bg-gray-100"
-              }`}
-            >
-              All
-            </button> */}
             {formats.map(format => (
               <button
                 key={format}
@@ -103,7 +93,7 @@ function SeriesPage() {
               <Link 
                 key={series.id} 
                 to={`/series/${series.id}`}
-                className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden"
+                className="bg-white rounded-xl overflow-hidden"
               >
                 <div className="bg-teal-600 p-4 text-white">
                   <h3 className="font-bold truncate">{series.name}</h3>

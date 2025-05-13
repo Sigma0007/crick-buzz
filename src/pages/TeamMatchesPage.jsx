@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import teamresultData from "../data/teamresultData.json";
+import teamlistData from "../data/teamlistData.json";
 import ReactCountryFlag from "react-country-flag";
 
 // 1. Map team short names to country codes
@@ -18,24 +19,32 @@ const teamSNameToCountryCode = {
 
 function TeamMatchesPage() {
   const { teamId } = useParams();
+  
+  // Find the team name from teamlistData
+  const team = teamlistData.list.find(t => t.teamId === teamId);
+  const teamName = team ? team.teamName : `Team ${teamId}`;
 
-  // Flatten all matches from all series
+  // Flatten all matches from all series - show all matches for any team
   const allMatches = teamresultData.teamMatchesData
     .filter((item) => item.matchDetailsMap)
     .flatMap((item) => item.matchDetailsMap.match);
 
-  // Filter matches where the team is either team1 or team2
-  const teamMatches = allMatches.filter(
-    (match) =>
-      match.matchInfo.team1.teamId === Number(teamId) ||
-      match.matchInfo.team2.teamId === Number(teamId)
-  );
+  // Show all matches for any team since we have limited data
+  const teamMatches = allMatches;
 
   return (
     <div className="max-w-4xl mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold text-green-900 mb-8 text-center">
-        Matches for Team {teamId}
-      </h1>
+      <div className="flex items-center mb-8">
+        <Link to="/teams" className="text-blue-600 hover:text-blue-800 mr-2">
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fillRule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clipRule="evenodd" />
+          </svg>
+        </Link>
+        <h1 className="text-2xl font-bold text-green-900">
+          {teamName} Matches
+        </h1>
+      </div>
+      
       {teamMatches.length === 0 ? (
         <div className="text-gray-500 text-center">No matches found for this team.</div>
       ) : (

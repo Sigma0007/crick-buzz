@@ -39,8 +39,10 @@ function MatchesPage({ data }) {
     : matches.filter(match => match.matchType === filter);
 
   return (
+
+    // all card in matches page 
     <div className="min-h-screen bg-gray-100 py-6 px-4">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-5xl mx-auto">  
         <div className="flex flex-col items-center mb-6">
           <h1 className="text-2xl font-bold text-center text-gray-800 mb-4">
             Cricket Matches
@@ -89,7 +91,7 @@ function MatchesPage({ data }) {
                   onClick={() => setFilter('all')} 
                   className="mt-3 px-3 py-1.5 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors text-sm"
                 >
-                  View All Matches
+                 All Matches
                 </button>
               )}
             </div>

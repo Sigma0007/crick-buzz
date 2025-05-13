@@ -98,7 +98,7 @@ function TeamsPage() {
                 <div className="p-6">
                   <div className="flex items-center justify-center mb-4 gap-2">
                     {teamSNameToCountryCode[team.teamSName] ? (
-                      <div className="w-28 h-16 bg-white flex items-center justify-center border-2 border-gray-700 shadow flex-shrink-0">
+                      <div className="w-28 h-16 bg-white flex items-center rounded justify-center border-2 border-gray-700 shadow flex-shrink-0">
                         <ReactCountryFlag
                           countryCode={teamSNameToCountryCode[team.teamSName]}
                           svg
